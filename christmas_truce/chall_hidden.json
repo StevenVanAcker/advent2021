@@ -1,0 +1,12 @@
+{
+    "name": "Christmas Truce -- The Extra Mile",
+    "day": 12,
+    "flag": "the_organizers_thank_you_for_going_the_extra_mile_and_saving_christmas_for_all_of_us",
+    "category": "misc",
+    "tags": ["cooking", "charity", "outfit"],
+    "info": "Santa and Grinch forces have declared a fragily truce. It is your job to keep the truce going by keeping Christmas cheer high. Read more on how to do this by following the provided link.",
+    "author": "Steven",
+    "author_url": "https://twitter.com/StevenVanAcker",
+    "play_url": "https://github.com/AdventCTF/advent2021-christmas-truce",
+    "download_url": ""
+}

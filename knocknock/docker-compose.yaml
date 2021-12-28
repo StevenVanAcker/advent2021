@@ -1,0 +1,14 @@
+version: '3.5'
+services:
+  knockknock: 
+    build: src
+    ports:
+      - 25000-26000:25000-26000
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          memory: 2G
+
+
+

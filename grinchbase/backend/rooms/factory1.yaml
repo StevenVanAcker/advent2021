@@ -1,0 +1,18 @@
+name: Factory 1
+description: |
+  The room is filled with heavy machinery. Several belt-lines are transporting
+  pieces of *metal* from one machine to another.  The floor is filled with iron
+  filings. There is a *sign* on the wall.
+  
+items:
+  metal: |
+    The piece of metal looks like it would make a nice Christmas ornament.  You
+    ponder for a second about stealing one, but then decide that you would
+    rather remain one of the good guys.
+  sign: |
+    The sign reads "4 days since last incident". There is room for only 1
+    digit.
+directions:
+  e: design2
+  w: office3
+  s: factory2

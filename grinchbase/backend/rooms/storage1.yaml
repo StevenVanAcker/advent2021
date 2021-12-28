@@ -1,0 +1,18 @@
+name: Storage room 1
+description: |
+  The room is filled with *boxes* of missiles and launch mechanisms.  Two
+  *missiles* hang on chains from the ceiling rails.  A big banner across the
+  room reads "See something? Say something!" There is a metal *door* to the
+  east.
+
+items:
+  boxes: |
+    The boxes are covered in stickers labelled "High explosives" and "These are
+    not toys"
+  missiles: |
+    One of the missiles has the words "A present for Fluffers" painted on it.
+  door: |
+    The door looks very heavy and has motors to open and close it
+    electronically.  You are not sure how to open this.
+directions:
+  w: factory2

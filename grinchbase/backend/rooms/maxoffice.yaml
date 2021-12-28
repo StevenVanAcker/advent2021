@@ -1,0 +1,20 @@
+name: Max's office
+description: |
+  In the middle of the room is a big dark oak desk with a dog basket on top.
+  One side of the desk is heavily scratched.
+  Crumbs litter the desk and the carpet on the floor. A big jute *bag* sits in
+  one corner of the room. The floor is littered with chewed-up toys and
+  christmas ornaments. There are *pictures* and *signs* all over the walls.
+
+items:
+  bag: |
+    The bag is labelled "for Max only" and contains dog biscuits.
+  pictures: |
+    Several pictures show the Grinch with a dog. One picture shows the dog wearing
+    an antler on its head.
+  signs: |
+    One of the engraved signs reads: "All meeting requests must be scheduled by
+    my assistant Max".
+directions:
+  w: entrance
+  e: grinchoffice

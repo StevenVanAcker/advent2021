@@ -1,0 +1,22 @@
+name: Office area 3
+description: |
+  Desks and cubicles and more of the same. Someone left
+  their *jacket* hanging on a coat rack in the middle of the area.
+  While the computers on most desks have been shut down, one
+  *computer* is still powered on, beeping every so often.
+  The desk on which the computer rests also has a landline
+  *phoneset* with the horn off the hook.
+items:
+  computer: |
+    The computer appears to be stuck in a loop, rebooting once
+    in a while after a blue screen.
+  phoneset: |
+    A computer voice in the phone repeats the same message over and over: 
+      "All our operators are currently occupied. Your call is very
+      important to us. You are 10209725th in line"
+  jacket: |
+    The jacket is green and looks like it would protect well against the
+    extreme weather conditions on the North Pole.
+directions:
+  n: office2
+  e: factory1

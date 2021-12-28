@@ -1,0 +1,116 @@
+#thanks {
+  position: absolute;
+  background-color: rgba(0,0,0,0.5);
+
+  border: 3px solid yellow;
+  padding: 20px;
+  border-radius: 20px;
+  width: 50%;
+  height: 50%;
+  min-height: 500px;
+  left: 25%;
+  top: 25%;
+  z-index: 1000;
+}
+
+#thanks h1 {
+	margin-top: 0px;
+	font-size: 500%;
+	color: yellow;
+}
+
+#thanks h2 {
+	text-align: center;
+	font-size: 70%;
+}
+
+#goldstar {
+	visibility: hidden;
+	width: 100%;
+}
+
+#goldstar.active p span {
+	line-height: 200px;
+	font-weight: bold;
+}
+
+#goldstar.active {
+	visibility: visible;
+	background-image: url("goldstar.png");
+	background-repeat: no-repeat;
+	min-height: 200px;
+}
+
+#goldstar.active p {
+	/*
+	padding-top: 80px;
+	*/
+	padding-left: 250px;
+	font-size: 150%;
+	color: yellow;
+}
+
+body {
+    background-image: url(bg.jpg);
+    background-size: cover;
+	overflow: hidden;
+}
+
+
+#dedication {
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	background-color: rgba(0,0,0,0.5);
+	border: 3px solid black;
+	padding: 20px;
+	border-radius: 20px;
+
+	text-align: center;
+}
+
+#dedication img {
+	border: 3px solid black;
+	border-radius: 40px;
+}
+
+#dedication .txt, #dedication .name {
+	font-weight: bold;
+	font-size: larger;
+	padding: 0px;
+	max-width: 300px;
+}
+
+#dedication .date {
+	font-style: italic;
+	padding: 10px;
+}
+
+#santa {
+	width: 480px;
+	height: 160px;
+	position: relative;
+	background: url(transparent-santa-gif-flying.gif) 100% 100% no-repeat;
+	transform: scaleX(-1);
+	background-position: 0 0; 
+	animation-name: santaflying;
+	animation-duration: 3s;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+  z-index: 1000;
+}
+
+#santa p {
+    font-size: 8pt;
+    color: #ccc;
+    position: absolute;
+    top: 130px;
+    left: 310px;
+    transform: rotate(5deg);
+}
+
+@keyframes santaflying {
+    0%   {left:-580px; top:0px;}
+    100% {left: calc(100vw); top:0px;}
+
+}

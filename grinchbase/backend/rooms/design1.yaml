@@ -1,0 +1,14 @@
+name: Design office 1
+description: |
+  Several desks are arranged around a series of whiteboards.  All desks have
+  fancy-looking computers on them. One of the computers seems to be running a
+  *simulation* of some kind.  A 3D printed *prototype* sits on a high table.
+  There are some colorful motivational posters hanging on the walls.
+items:
+  simulation: |
+    You squint at the screen. It reads "Knock, knock, Neo."
+  prototype: |
+    It reminds you of Santa's sleigh, but sleeker and with twin jet engines.
+directions:
+  s: design2
+  n: mailroom

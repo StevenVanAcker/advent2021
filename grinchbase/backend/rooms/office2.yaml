@@ -1,0 +1,27 @@
+name: Office area 2
+description: |
+  There are several cubicles in this area. One of the cubicles has seven office
+  chairs in them. In another cubicle you find an unlocked computer with an open
+  browser window. The browser window displays a *website*.  At the end of the
+  row of cubicles, you find the remnants of what was probably a *printer*.
+  
+items:
+  website: |
+    The webpage reads 
+
+      "Welcome to UnitedPuzzlers, home to the world's
+      largest Sudoku solving community. We provide weekly
+      Sudoku challenges for you to solve. If you have solved
+      this week's sudoku, submit the _middle_ row of 9 numbers
+      using the form below, to potentially win a prize!"
+
+    There is a form with a submit button at the bottom of
+    the page. To submit the solution to the sudoku challenge,
+    use [submit <solution>], where <solution> is a 9-digit number.
+    For instance: submit 123456789
+  printer: |
+    It looks like someone, in a fit of rage, used a blunt object
+    to destroy this popular-brand printer. You sympathize.
+directions:
+  n: office1
+  s: office3

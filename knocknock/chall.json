@@ -1,0 +1,12 @@
+{
+    "name": "Knock knock",
+    "day": 15,
+    "flag": "j00r_4_m34n_1_m1st3r_gr1nch",
+    "category": "misc",
+    "tags": ["misc"],
+    "info": "A delegation of peacekeepers approaches the Grinch's lair, but find 10000 doors. They try the first door and it tells them to sing Christmas carols. Is this some kind of sick joke?!",
+    "author": "Steven",
+    "author_url": "https://twitter.com/StevenVanAcker",
+    "play_url": "nc knockknock.advent2021.overthewire.org 25000",
+    "download_url": "https://advent2021.s3.amazonaws.com/09392e0df000c29f2eb25118f6cff8a83a5ce0ed38ba66391572fddd0ceb5b17_knockknock-server.py"
+}

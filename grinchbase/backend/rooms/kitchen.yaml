@@ -1,0 +1,31 @@
+name: Kitchen
+description: |
+  The kitchen area looks unusually neat and tidy. One table has nothing but
+  *microwaves* on it.  The dishwashers are loaded with an abnormal amount of
+  *cutlery*.  A note says “Stay home - Stay safe”.  The coffee machines are
+  softly humming away in the corner. A *fridge* next to the dishwasher has a
+  *postit* note on it. 
+
+items:
+  fridge: |
+    The fridge is surprisingly clean as well, not even an empty lunchbox
+    or expired bottle of milk!
+  postit: |
+    The post-it note reads:
+
+        "To whomever accidentally took my lasagna, I hope you enjoyed it.
+        I would love to get your feedback, since it's the first time I
+        cooked it completely from scratch"
+  cutlery: |
+    There are all kinds of cutlery ranging from small to large, from different
+    brands and different designs. Oddly, there is not a spoon in sight.
+  microwaves: |
+    There are 4 microwave ovens here, all different brands. It amuses you that
+    none of the builtin clocks show an accurate time, subtly offering social
+    commentary on the fast-paced nature of today's corporate life: not even
+    devices built to keep track of time can keep up with life, while their
+    human slaves are too busy to accurately adjust the very metronomes that
+    control their lives.
+directions:
+  w: factory3
+  s: recroom

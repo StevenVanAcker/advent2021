@@ -1,0 +1,12 @@
+{
+    "name": "Jigsaw",
+    "day": 7,
+    "flag": "Sm4ll_p1ec3s_mak3_4_b1g_pic7ure",
+    "category": "misc",
+    "tags": ["jigsaw"],
+    "info": "Santa has hidden a secret message on the backside of a jigsaw puzzle that he completed. Sadly, one of his elves dropped the completed puzzle, shuffling all the pieces. Can you verify that it is indeed impossible for the Grinch to recover this message?",
+    "author": "Steven",
+    "author_url": "https://twitter.com/StevenVanAcker",
+    "play_url": "",
+    "download_url": "https://advent2021.s3.eu-north-1.amazonaws.com/ea1feb55191a6b220ffa521b568fb5b42ee4115b8c086b038d729b46dd5f5dfb_jigsaw_pieces.tar.xz"
+}

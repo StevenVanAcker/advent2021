@@ -1,0 +1,19 @@
+name: Server room
+description: |
+  There are several servers here, placed on makeshift tables.  The air buzzes
+  from the server fans in the narrow room.  It feels hot and stuffy, and the
+  white walls gives it a claustrophobic vibe.  One particular *server* draws
+  your attention, it has "Launch control" written on it.  The server seems
+  hardwired into a datarack.  Something tells you that simply shutting down the
+  power will trigger the launch system, so you decide to take it safe by
+  performing a graceful system shutdown.
+items:
+  server: |
+    The server displays a login screen
+
+        Username:
+        Password:
+
+    Use [login <username> <password>] to fill in the login prompt
+directions:
+  s: radarroom

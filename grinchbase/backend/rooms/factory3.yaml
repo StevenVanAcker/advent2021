@@ -1,0 +1,22 @@
+name: Factory 3
+description: |
+  The floor in this room is covered with a metal grate.  You look down through
+  it and see large *silos* with liquid in them.  The smell is very distinctive
+  and reminds you of jet-fuel.  On the east wall is a long row of metal
+  *cabinets*.  On the west wall, there is a door with a *keypad* next to it.
+  The door leads to a lab.
+items:
+  silos: |
+    The silos are made of metal and painted in red and white stripes. They
+    remind you of candy, but you don't need a lot of convincing that they do
+    not contain anything delicious.
+  keypad: |
+    The keypad has the standard buttons for entering a pincode. It also
+    contains a scanner for standard access cards. Type [use accesscard] to use
+    an accesscard here.
+  cabinets: |
+    The cabinets are metallic gray and are covered with name-tags for
+    electronic components. The doors of the cabinets are locked.
+directions:
+  e: kitchen
+  n: factory2

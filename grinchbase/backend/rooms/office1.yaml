@@ -1,0 +1,18 @@
+name: Office area 1
+description: |
+  Several desks are arranged in rows in the most unimaginative way.  One of the
+  desks has some printed *documents* on it. A *plant* on another desk hasn't
+  seen daylight in months. A nearby trashbin is overflowing with candy
+  wrappers.
+items:
+  documents: |
+    You look at the documents and see that they are full of nonsense words.
+    Someone wrote "All fun and no play makes Jack a dull boy" over and over on
+    the back of them.
+  plant: |
+    The plant vaguely resembles an abstract interpretation of a Christmas tree,
+    with candy wrappers as ornaments.
+directions:
+  n: entrance
+  s: office2
+  e: securityoffice

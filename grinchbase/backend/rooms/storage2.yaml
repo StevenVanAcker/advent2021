@@ -1,0 +1,15 @@
+name: Storage room 2
+description: |
+  The room is filled with several storage racks.  The shelves on the racks have
+  *bags* and bags of dog biscuits stacked on top of them. One of the bags has
+  been ripped open, with some *biscuits* pouring onto a shelf. You wonder if an
+  employee was starving so badly that... no, you don't want to go there.
+
+items:
+  bags: |
+    On the side of one of the bags you read: not for human consumption.
+  biscuits: |
+    You smell one of the biscuits. Doesn't smell too bad. But you know in your
+    heart that they are not meant for you.
+directions:
+  e: radarroom

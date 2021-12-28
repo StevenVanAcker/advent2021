@@ -1,0 +1,52 @@
+name: Recreation room
+description: |
+  A *watercooler* makes bubbling sounds in a corner.  Next to it, a *fridge*
+  with a dented door.  A pool of *water* covers the floor in front of the
+  fridge and the watercooler.  To the side there’s an opening with tables and
+  *sofas*. A *sudoku* puzzle rests on top of a pile of magazines. 
+
+items:
+  sudoku: |
+    The sudoku looks printed from a website
+    'UnitedPuzzlers Weekly Sudoku Challenge'
+    is written at the top.
+
+    +###+###+###+###+###+###+###+###+###+
+    # 3 |   |   #   |   |   # 5 | 4 | 2 #
+    +---+---+---+---+---+---+---+---+---+
+    #   |   |   #   | 3 | 4 #   | 7 |   #
+    +---+---+---+---+---+---+---+---+---+
+    #   |   | 7 #   | 8 |   #   | 3 |   #
+    +###+###+###+###+###+###+###+###+###+
+    # 9 |   |   # 3 | 1 |   #   |   |   #
+    +---+---+---+---+---+---+---+---+---+
+    # 5 |   | 4 #   |   |   # 6 |   | 3 #
+    +---+---+---+---+---+---+---+---+---+
+    #   |   |   #   | 4 | 6 #   |   | 9 #
+    +###+###+###+###+###+###+###+###+###+
+    #   | 6 |   #   | 5 |   # 2 |   |   #
+    +---+---+---+---+---+---+---+---+---+
+    #   | 9 |   # 1 | 2 |   #   |   |   #
+    +---+---+---+---+---+---+---+---+---+
+    # 7 | 2 | 8 #   |   |   #   |   | 5 #
+    +###+###+###+###+###+###+###+###+###+
+
+    At the bottom: 'submit your solution
+    to win a prize'. There is no URL...
+
+  fridge: |
+    The fridge contains some oddly shaped fruit. You are unsure whether the
+    fruit has expired or not, since you can not identify it. The smelly
+    lunchbox on the bottom shelf has been there for a while though.
+  watercooler: |
+    The watercooler is housed in a sleek black plastic structure. It dispenses
+    both room temperature water as well as cold water.
+  sofas: |
+    The sofas look comfortable.
+  water: |
+    You try to determine whether the water is coming from the fridge or the
+    watercooler. But something in you tells you that it won't matter unless you
+    can stop those COVID missiles from being launched.
+directions:
+  n: kitchen
+  s: rnd

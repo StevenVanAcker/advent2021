@@ -1,0 +1,14 @@
+name: Design office 2
+description: |
+  Three large-scale models of missiles stand in the middle of the room.  Each
+  of the missiles has a different nose-cone. Through the *window*, you see an
+  illuminated launchpad with 4 mounted missiles aimed to the sky, ready to be
+  launched. Next to the cabinet is a *desk* that is completely empty.
+items:
+  window: |
+    The window is made of thick blast-proof glass.
+  desk: |
+    You notice nothing special about it.
+directions:
+  n: design1
+  w: factory1

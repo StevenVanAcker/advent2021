@@ -1,0 +1,26 @@
+name: Entrance
+description: |
+  The *doormat* under your feet is covered in snow and dirt.  It’s already
+  getting dark outside and you can’t see anything through the windows but your
+  own tired *reflection*.   On one side of the room is a sofa with a coffee
+  table and some *magazines* on top dating back to the 1980s.  In the distance
+  you see some abandoned desks.
+  
+items:
+  doormat: |
+    It looks like a fairly standard brown doormat with a big print of some
+    paws.  The bottom reads: "Go Away!"
+  reflection: |
+    You stare into your own gaze like a stranger from across the room.  "Hello,
+    myself from the past", you say to your own reflection, cleverly observing
+    that you are aware of the fraction of a millisecond that it took the light
+    to reflect off of the window back into your eyes. You chuckle and your
+    reflection chuckles back.
+  magazines: |
+    One magazine shows a younger Bill Gates in front of an old IBM XT computer,
+    while another offers a complete Spectrum business computer system for just
+    900GBP.
+directions:
+  n: gate
+  s: office1
+  e: maxoffice

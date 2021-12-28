@@ -1,0 +1,23 @@
+name: Mail room
+description: |
+  The walls of the mail room are covered in *cut-outs* from The Daily Who
+  newspaper.  There’s an oak colored storage area and mail *lockers* with
+  letters and fading tags with almost indecipherable names. A table hosts an
+  assortment of colored pens, pencils and paperclips. Next to a pair of
+  scissors is a roll of stamps.  On the floor in the corner are several empty
+  cardboard boxes and some unassembled cardboard boxes with a role of brown
+  tape on top.
+
+items:
+  cut-outs: |
+    All the cut-outs mention the Grinch in one way or another, dating back for
+    years.  Marked in red are several sections of text with "LIES!" written
+    next to them.
+  lockers: |
+    Squinting at the name tags, you make out some of the names: "Engineering",
+    "Sales", "IT", "Grinch".  Most mailboxes have a bunch of papers in them,
+    which looks like a weekly newsletter of some kind.  The Grinch's mailbox 
+    is empty and looks like it has never received a letter.
+directions:
+  n: grinchoffice
+  s: design1

@@ -1,0 +1,12 @@
+{
+    "name": "Grinch base",
+    "day": 18,
+    "flag": "I_am_th3_Grinch_that_stol3_Xmas_and_Im_s0rry",
+    "category": "misc",
+    "tags": ["misc"],
+    "info": "The Daily Who reporter Leah Misty-Blue-Who managed to locate clues about the location of the Grinch base. Your mission is to shut down the COVID missile launching system to save Christmas",
+    "author": "Steven",
+    "author_url": "https://twitter.com/StevenVanAcker",
+    "play_url": "https://www.youtube.com/watch?v=Xypikgwr3HU and https://twitter.com/OverTheWireCTF",
+    "download_url": ""
+}

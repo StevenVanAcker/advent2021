@@ -1,0 +1,21 @@
+name: Grinch's office
+description: |
+  A paper bag with *coal* sits on a wooden desk in the center of the room.
+  A red Santa suit hangs off of a coat rack on the wall. Next to the suit
+  are a pair of red gloves, with a *hole* in one of the fingers.
+  Behind the desk is a big advent calendar with 25 opened doors.
+
+  In a hidden corner, a white plastic door hides away a *switchboard*.
+items:
+  coal: |
+    You take a piece of coal to take a closer look. There is nothing special about it.
+  hole: |
+    Seeing the hole confirms your suspicions that the person in the videos was indeed the
+    Grinch dressed as Santa.
+  switchboard: |
+    (You can also use "l sw" as an abbreviation)
+    The switchboard has a 4x4 grid of switches, but it is unclear what they are for.
+    Use [toggle <switch>] or [t <switch>] to toggle a switch. For instance, [toggle A1]
+directions:
+  w: maxoffice
+  s: mailroom

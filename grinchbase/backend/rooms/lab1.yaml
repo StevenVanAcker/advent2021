@@ -1,0 +1,22 @@
+name: Lab 1
+description: |
+  Small experimental setups are packed in neat racks and tables on the left
+  side of the room. The AC is gently buzzing and a draft proves it's doing its
+  job keeping the room cool.  One of the racks has a *radio* with a dial button
+  next to it.  Against one of the walls are desks with soldering *equipment*
+  and lots of electronics *components* next to that.
+items:
+  radio: |
+    A standard FM radio used to pass the time while working in the lab.
+    Anything is better than the constant beeping alarms, right?  Use [tune
+    <frequency>] to tune the radio to a certain frequency, for instance tune
+    100.1
+  equipment: |
+    Looks like standard soldering equipment for the most part. All of it seems
+    to have been used extensively, a good indicator of an awesome working
+    environment.
+  components: |
+    Rows and rows of drawers with electronics components cover 2 pylons. You
+    could spend several days sifting through these.
+directions:
+  e: factory2

@@ -1,0 +1,20 @@
+name: R&D
+description: |
+  This room looks like a disaster. Computers, antennas, cables, some *device*,
+  circuit boards... are spread out all over the place as if a hurricane had a
+  crazy day. Something you immediately recognize as a Christmas cheer
+  *meter* lies on a shelf. With a room like this, you wonder why there is a
+  need for a recreation room.
+items:
+  device: |
+    It's a white metal box with some wires sticking out.  Judging by the
+    attached antenna, it must be a transmitter of some kind. The device is
+    plugged into a power socket.
+  meter: |
+    Looks like this device was stolen from Whoville. It has "property of
+    Elizabeth Hula-hoo-Who" written at the bottom. You point it at yourself, a
+    control-value for maximum Christmas cheer, but the meter reads zero. If the
+    meter ever worked, it no longer does.
+directions:
+  n: recroom
+  w: radarroom

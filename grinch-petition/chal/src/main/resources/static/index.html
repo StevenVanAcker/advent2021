@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+
+<body>
+    <h1>Peace with the Grinch petition</h1>
+
+    <div id="description">
+        <p>
+
+            The Christmas Truce between Santa and Grinch forces
+            of 12 December 2021 is a clear sign that nobody wants
+            the war the Grinch is raging against the North Pole.
+        </p>
+        <p>
+
+            With this petition, we want to show the Grinch how many
+            elves and Whos support a permanent peace treaty
+            and hope to convince him to stop this foolish and harmful war.
+        </p>
+        <p>
+
+            Let's save Christmas together! Please sign the petition
+            and leave a personal and heart-warming message for the Grinch.
+        </p>
+
+    </div>
+
+    <div id="main">
+
+
+        <form method="POST" action="/signPetition">
+            <div>
+                <input type="text" name="name" placeholder="Name...">
+
+            </div>
+            <div>
+				<textarea rows="4" name="message" placeholder="Your message..." style="width: 100%;"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Sign the petition">
+            </div>
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

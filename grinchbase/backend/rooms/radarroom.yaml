@@ -1,0 +1,29 @@
+name: RADAR room
+description: |
+  You let your eyes adjust to a room that is darker than usual.  This room
+  feels like a control center of some kind. There are big screens showing maps
+  of the North Pole, and *screens* showing RADAR information.  On the side are
+  *schematics* of missiles with piles of books containing technical data.
+  Several *posters* on the wall have data plotted on them.
+
+  Hidden on the north wall is a door with a *keypad* next to it. The door leads
+  to the server room.
+items:
+  screens: |
+    You pause and look at the RADAR screens, hoping to catch a glimpse of
+    Santa's sleigh, but then remember Sleigh One is unable to fly as long as the
+    COVID missiles are able to shoot it down.
+  schematics: |
+    The missile schematics confirm what you've seen on the factory floor. They
+    have a compartment that can hold different payloads, with dog biscuits
+    being one of the possible payloads.
+  posters: |
+    The data shows different estimated missile trajectories based on fuel
+    consumption, payload size and wind factors.
+  keypad: |
+    The keypad has the standard buttons for entering a pincode. It also
+    contains a scanner for special access cards. Type [keypad <pincode>] to use
+    a special accesscard here.
+directions:
+  e: rnd
+  w: storage2

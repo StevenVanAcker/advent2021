@@ -1,0 +1,20 @@
+name: Factory 2
+description: |
+  Along the ceiling of this room are rails that lead to the east.  Heavy chains
+  hang from the rails, ready to pick up heavy objects.  A *machine* sitting in
+  the middle of the room is humming gently.
+
+  On the west wall, there is a door with a *keypad* next to it.  The door leads
+  to a lab.
+items:
+  machine: |
+    The machine has many flickering lights and warning labels. It looks like it
+    assembles missiles.
+  keypad: |
+    The keypad has the standard buttons for entering a pincode. It also
+    contains a scanner for standard access cards. Type [use accesscard] to use
+    an accesscard here.
+directions:
+  e: storage1
+  n: factory1
+  s: factory3

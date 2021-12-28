@@ -1,0 +1,22 @@
+version: '3'
+services:
+  backend:
+    build:
+      context: ./
+      dockerfile: ./backend/Dockerfile
+    volumes:
+      - ./backend/rooms/:/opt/backend/rooms
+      - ./backend/persistent/:/opt/backend/states
+  frontend:
+    build:
+      context: ./
+      dockerfile: ./frontend/Dockerfile
+  envoy:
+    build:
+      context: ./envoy
+    ports:
+      - "443:8080"
+    links:
+      - backend
+      - frontend
+

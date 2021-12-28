@@ -1,0 +1,21 @@
+name: Lab 2
+description: |
+  The air smells stale and dust swirls as in a long forgotten tomb. A dim lamp
+  swings gently from the high ceiling illuminating a staircase leading up into
+  the void. Across the room the test *chamber* door stands slightly ajar. On
+  the wall are several framed pictures of employees at social events. They
+  remind you of days gone past, before pandemics and lockdowns, when
+  socializing was not just possible but encouraged. Cramped with equipment, the
+  table along the wall leads the eye to a high voltage *sign*: DANGER.
+items:
+  chamber: |
+    The chamber is covered with triangularly shaped pieces of foam. You
+    consider going inside and singing one of your favorite songs out loud.
+    Maybe another time...
+  sign: |
+    The sign is triangular in shape, showing a black lightning streaking across
+    a yellow background. Even though the sign says "DANGER" underneath, you
+    ponder whether touching it would be a good idea. You can touch the sign
+    with [touch sign].
+directions:
+  e: factory3
